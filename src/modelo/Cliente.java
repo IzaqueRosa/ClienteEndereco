@@ -11,14 +11,6 @@ public class Cliente {
     private double salario;
     private List<Endereco> enderecos;
 
-    public List<Endereco> getEnderecos() {
-        return enderecos;
-    }
-
-    public void setEnderecos(List<Endereco> enderecos) {
-        this.enderecos = enderecos;
-    }
-
     public Cliente() {
     }
 
@@ -70,6 +62,12 @@ public class Cliente {
         this.salario = salario;
     }
     
-    
+    public List<Endereco> getEnderecos() {
+        return enderecos;
+    }
+
+    public void setEnderecos(List<Endereco> enderecos) {
+        this.enderecos = enderecos;
+    }
     
 }

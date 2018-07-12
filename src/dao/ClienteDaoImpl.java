@@ -34,6 +34,7 @@ public class ClienteDaoImpl implements ClienteDao, Serializable{
             ps.executeUpdate();
             rs = ps.getGeneratedKeys();
             rs.next();
+            //O (1) se refere a primeira coluna do banco de dados
             c.setId(rs.getInt(1));
         } finally {
             conn.close();
