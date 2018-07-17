@@ -22,7 +22,7 @@ public class ClienteDaoImplTest {
     @Test
     public void testSalvar() throws Exception {
         System.out.println("salvar");
-        c = new Cliente(null, "Izaque Rosa", "058.916.409-02", "izaque_mp@hotmail.com", 2500.00);
+        c = new Cliente(null, "Izaque Rosa2", "058.916.409-02", "izaque_mp@hotmail.com", 2500.00);
         clienteDao.salvar(c);
         System.out.println(c.getId());
     }
